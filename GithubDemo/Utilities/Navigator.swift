@@ -39,7 +39,7 @@ class Navigator {
     
     func start() {
         let baseNavigation = UINavigationController()
-        baseNavigation.navigationBar.tintColor = .black
+        baseNavigation.navigationBar.tintColor = .label
         window.rootViewController = baseNavigation
         window.makeKeyAndVisible()
         self.show(target: rootViewController, sender: baseNavigation)

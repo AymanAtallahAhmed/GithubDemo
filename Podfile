@@ -8,7 +8,6 @@ target 'GithubDemo' do
   # Pods for GithubDemo
   pod 'RxSwift'
   pod 'RxCocoa'
-  pod 'RxDataSources'
   pod 'Alamofire'
   pod 'RxAlamofire'
 end

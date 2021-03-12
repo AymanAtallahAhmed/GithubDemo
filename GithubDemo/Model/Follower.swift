@@ -7,15 +7,9 @@
 //
 
 import Foundation
-import RxDataSources
 
-
-struct Follower: Codable, Hashable, Equatable, IdentifiableType {
+struct Follower: Codable, Hashable {
     
-    var identity: String {
-        return avatar_url
-    }
-        
     var login: String
     var avatar_url: String
 }

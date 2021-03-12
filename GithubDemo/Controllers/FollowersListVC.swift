@@ -9,7 +9,6 @@
 import UIKit
 import RxSwift
 import RxCocoa
-import RxDataSources
 
 class FollowersListVC: UIViewController {
     
@@ -53,7 +52,7 @@ class FollowersListVC: UIViewController {
     private func setupCollectionView() {
         collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: UIHelper.creat3ColumnFlowLayout(in: view))
         view.addSubview(collectionView)
-        collectionView.backgroundColor = .white
+        collectionView.backgroundColor = .systemBackground
         collectionView.rx.setDelegate(self).disposed(by: disposeBag)
         collectionView.register(FollowerCell.self, forCellWithReuseIdentifier: FollowerCell.reuseID)
     }
@@ -67,7 +66,7 @@ class FollowersListVC: UIViewController {
     }
     
     private func setupUI() {
-        view.backgroundColor = .white
+        view.backgroundColor = .systemBackground
         navigationItem.title = viewModel.userName
         navigationController?.navigationBar.prefersLargeTitles = true
     }

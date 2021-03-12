@@ -11,7 +11,7 @@ import UIKit
 
 struct UIHelper {
     static func creat3ColumnFlowLayout(in view: UIView) -> UICollectionViewFlowLayout {
-        let width = view.frame.width  // he made it bounds instead of frame
+        let width = view.frame.width
         let padding: CGFloat = 12
         let minimumSpacing: CGFloat = 10
         let avilableWidth = width - (padding*2 + minimumSpacing*2)

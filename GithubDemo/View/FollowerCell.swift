@@ -26,7 +26,7 @@ class FollowerCell: UICollectionViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .center
         label.font = UIFont.systemFont(ofSize: 16)
-        label.textColor = .black
+        label.textColor = .label
         label.adjustsFontSizeToFitWidth = true
         return label
     }()

@@ -14,7 +14,6 @@
 		E3384BB425F3EC8100D8A9CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3384BB325F3EC8100D8A9CB /* Assets.xcassets */; };
 		E3384BB725F3EC8100D8A9CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3384BB525F3EC8100D8A9CB /* LaunchScreen.storyboard */; };
 		E3384BC825F3F51900D8A9CB /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3384BC625F3F51900D8A9CB /* Follower.swift */; };
-		E3384BC925F3F51900D8A9CB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3384BC725F3F51900D8A9CB /* User.swift */; };
 		E3384BCC25F3F52D00D8A9CB /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3384BCA25F3F52D00D8A9CB /* SearchVC.swift */; };
 		E3384BCD25F3F52D00D8A9CB /* FollowersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3384BCB25F3F52D00D8A9CB /* FollowersListVC.swift */; };
 		E3384BCF25F3F53D00D8A9CB /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3384BCE25F3F53D00D8A9CB /* FollowerCell.swift */; };
@@ -38,7 +37,6 @@
 		E3384BB625F3EC8100D8A9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3384BB825F3EC8100D8A9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3384BC625F3F51900D8A9CB /* Follower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
-		E3384BC725F3F51900D8A9CB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E3384BCA25F3F52D00D8A9CB /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		E3384BCB25F3F52D00D8A9CB /* FollowersListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersListVC.swift; sourceTree = "<group>"; };
 		E3384BCE25F3F53D00D8A9CB /* FollowerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				E3384BC225F3F3D700D8A9CB /* Controllers */,
 				E3384BBE25F3F11100D8A9CB /* Common */,
 				E3384BB825F3EC8100D8A9CB /* Info.plist */,
-				E3384BD225F42BAB00D8A9CB /* Navigator.swift */,
 			);
 			path = GithubDemo;
 			sourceTree = "<group>";
@@ -154,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				E3384BC625F3F51900D8A9CB /* Follower.swift */,
-				E3384BC725F3F51900D8A9CB /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +166,7 @@
 		E397C64125F6C5A5007220DB /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				E3384BD225F42BAB00D8A9CB /* Navigator.swift */,
 				E3384BD625F43C5A00D8A9CB /* UIHelper.swift */,
 				E397C64225F6C5BB007220DB /* NetworkManager.swift */,
 				E397C64425F6CF85007220DB /* GHError.swift */,
@@ -293,7 +290,6 @@
 			files = (
 				E30094CC25F9956E0021951E /* UIImageView+Extensions.swift in Sources */,
 				E3384BCF25F3F53D00D8A9CB /* FollowerCell.swift in Sources */,
-				E3384BC925F3F51900D8A9CB /* User.swift in Sources */,
 				E334C20125FAE81F00E1E375 /* BehaviorRelay+Extensions.swift in Sources */,
 				E3384BD125F3FBB000D8A9CB /* SearchViewModel.swift in Sources */,
 				E3384BD725F43C5A00D8A9CB /* UIHelper.swift in Sources */,
